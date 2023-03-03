@@ -1,0 +1,122 @@
+.movie {
+  color: white;
+  font-weight: 700;
+  font-size: 0.8rem;
+  /* background-color: aqua; */
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  padding-bottom: 2rem;
+  cursor: pointer;
+  width: 240px;
+}
+
+@media only screen and (max-width: 508px) {
+  .movie {
+    width: 170px;
+  }
+}
+
+.movie img:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
+}
+
+.movie img {
+  transition: all ease 0.3s;
+  width: 240px;
+  height: 360px;
+}
+
+/* @media only screen and (max-width: 770px) {
+  .movie img {
+    width: 200px;
+    height: 300px;
+  }
+} */
+
+@media only screen and (max-width: 508px) {
+  .movie img {
+    width: 170px;
+    height: 255px;
+  }
+}
+
+.listMovies {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.listMovies-container {
+  max-width: 93%;
+  margin: 1.5rem auto;
+  background-color: #2c2c2c;
+  border-radius: 6px;
+}
+
+.pagination-bar {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+}
+
+@media only screen and (max-width: 770px) {
+  .pagination-bar {
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
+
+.pages-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.pages-button button {
+  background-color: transparent;
+  border: 0.5rem solid #a288e3;
+  cursor: pointer;
+  color: white;
+
+  font-weight: 700;
+}
+
+.pages-button button:hover {
+  color: #a288e3;
+}
+
+.details {
+  background-color: white;
+  width: 900px;
+  height: 520px;
+  border-radius: 10px;
+}
+
+.movie-year {
+  color: #bbd5ed;
+}
+
+.purple-text {
+  color: #bbd5ed;
+}
+
+.results-text {
+  color: white;
+  letter-spacing: 5px;
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.pages-text {
+  color: white;
+  letter-spacing: 4px;
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}

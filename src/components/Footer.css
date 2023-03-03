@@ -1,0 +1,9 @@
+.footer {
+  margin: 0 auto;
+  color: #a288e3;
+  letter-spacing: 5px;
+  font-size: 0.6rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
+}
