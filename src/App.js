@@ -7,7 +7,6 @@ import { useState, useEffect } from "react";
 import Footer from "./components/Footer";
 import "./components/Navbar.css";
 
-// API KEY - 75984d6b73b9208c6f9dc21b163d917e
 
 function App() {
   const [data, setData] = useState(null);
