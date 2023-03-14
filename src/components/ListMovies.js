@@ -5,8 +5,6 @@ import "./ListMovies.css";
 import "./Modal.css";
 import nocover from "../images/nocover.jpg";
 
-// API KEY - 75984d6b73b9208c6f9dc21b163d917e
-
 const ListMovies = ({
   data,
   genre,
